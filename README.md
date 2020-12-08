@@ -1,1 +1,1 @@
-# vt-abbyazov-rystam-1
+# Личный проект
