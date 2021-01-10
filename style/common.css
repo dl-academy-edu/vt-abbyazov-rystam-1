@@ -34,7 +34,7 @@ a {
     max-height: 40px;
     max-width: 160px;
     
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', 'Arial', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 22px;
@@ -58,11 +58,6 @@ a {
 }
 .header__inner {
     display: flex;
-    justify-content: space-between;
-}
-.inner__left{
-    display: flex;
-    justify-content: start;
     align-items: center;
 }
 .nav{
@@ -74,25 +69,20 @@ a {
     margin-right: 20px;
 }
 .nav__link{
-    font-family: 'Open sans';
+    font-family: 'Open sans', 'Arial', sans-serif;
     font-size: 14px;
     line-height: 19px;
     text-transform: uppercase;
-}
-
-.inner__right {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 .search__btn {
     background-color: #fff;
     border: 0;
 
     margin-right: 24px;
+    margin-left: auto;
 }
 .nav__contact {
-    font-family: 'Open sans';
+    font-family: 'Open sans', 'Arial', sans-serif;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -115,14 +105,14 @@ a {
     width: 380px;
 }
 .footer__title {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', 'Arial', sans-serif;
     font-size: 16px;
     line-height: 22px;
 
     color: #AAAAAA;
 }
 .footer__link {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', 'Arial', sans-serif;
     font-size: 16px;
     line-height: 22px;
     color: #FFFFFF;
@@ -152,7 +142,7 @@ a {
     border: 0;
     color:#EBEBEB;
 
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', 'Arial', sans-serif;
     font-size: 16px;
     line-height: 22px;
 }
@@ -184,21 +174,21 @@ a {
     margin-left: 0;
 }
 .rating__text {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', 'Arial', sans-serif;
     font-size: 16px;
     line-height: 22px;
     color: #FFFFFF; 
 }
 
 .copyright {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', 'Arial', sans-serif;
     font-size: 16px;
     line-height: 22px;
     color: #FFFFFF; 
 }
 
 .madein__text {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', 'Arial', sans-serif;
     font-size: 16px;
     line-height: 22px;
 

@@ -16,7 +16,7 @@
     margin-top: 17px;
 }
 .slide__num {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 60px; 
     color: rgba(30, 6, 6, 0.05);
@@ -37,7 +37,7 @@
 }
 .slide__title {
     width: 337px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', 'Arial', sans-serif;
     font-weight: 700;
     font-size: 44px;
     line-height: 110%;
@@ -46,7 +46,7 @@
     
 }
 .slide__desc {
-    font-family:'Crimson Text';
+    font-family:'Crimson Text', 'Arial', sans-serif;
     font-style: italic;
     font-size: 20px;
     line-height: 25px;
@@ -64,7 +64,7 @@
     justify-content: center;
     background-color: #C29974;
 
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', 'Arial', sans-serif;
     font-weight: 700;
     font-size: 12px;
     line-height: 16px;
@@ -87,7 +87,7 @@
 }      
 .category__title{
     padding-bottom: 30px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', 'Arial', sans-serif;
     font-weight: 700;
     font-size: 38px;
     line-height: 46px;
@@ -133,7 +133,7 @@
     position: absolute;
     top: 40%; left: 0; bottom: 40%; right: 0;
     
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', 'Arial', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 32px;
@@ -152,7 +152,7 @@
 }
 .aside__text{
     margin-left: 14px;
-    font-family: 'Open sans';
+    font-family: 'Open sans', 'Arial', sans-serif;
     font-size: 16px;
     line-height: 22px;
 
@@ -203,7 +203,7 @@ margin-top: 90px;
     margin-left: 60px;
 }
 .third__title {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', 'Arial', sans-serif;
     font-weight: 700;
     font-size: 38px;
     line-height: 46px;
@@ -226,7 +226,7 @@ margin-top: 90px;
 .third__link{
     padding-left: 60px;
     
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', 'Arial', sans-serif;
     font-style: italic;
     font-size: 26px;
     line-height: 32px;
@@ -235,7 +235,7 @@ margin-top: 90px;
     box-sizing: border-box;
 }
 .text-styles {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', 'Arial', sans-serif;
     font-size: 16px;
     line-height: 22px;
     padding-left: 60px;
@@ -281,7 +281,7 @@ margin-top: 90px;
     margin-left: 60px;
 }
 .article__title {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', 'Arial', sans-serif;
     font-weight: 700;
     font-size: 38px;
     line-height: 46px;
@@ -294,14 +294,14 @@ margin-top: 90px;
 }
 .design__subtitle {
     margin-bottom: 10px;
-    font-family: Crimson Text;
+    font-family:'Crimson Text', 'Arial', sans-serif;
     font-style: italic;
     font-size: 26px;
     line-height: 32px;
     color: #1E0606;
 }
 .article__text {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', 'Arial', sans-serif;
     font-size: 16px;
     line-height: 22px;
     color: #1E0606;
