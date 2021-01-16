@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DL Academy</title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style/common.css">
     <link rel="stylesheet" href="style/index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -352,28 +353,33 @@
             </div>
         </div>
     </footer>   
-    <!-- <form class="content__form" action="">
-        <label class="item__name">
-            Name
-            <input type="text" class="input" placeholder="Rustam Abbyazov">
-        </label>
-        <fieldset class="label--wrapper">
-            <label class="item__phone">
-                Phone
-                <input type="text" class="input" placeholder="">
-            </label>
-            <label class="item__email">
-                Email
-                <input type="email" class="input" placeholder="">
-            </label>
-        </fieldset>
-        <label class="item__message">
-            Message
-            <textarea cols="30" rows="10"></textarea>
-        </label>
-        <input id="check-receipt" type="checkbox" class="input" value="Receipt">
-        <label for="check-receipt" class="checkbox">By clicking on the button, you consent to the processing of your personal data</label>
-        <button type="submit">submit</button>
-    </form> -->
+    <form class="popup" action="https://echo.htmlacademy.ru" mthod="post">
+        <div class="field">
+            <label for="input__name" class="label__name">Name</label>
+            <input type="text" id="input__name" class="input__name" placeholder="Rustam Abbyazov">
+        </div>
+        <div class="field__wrapper">
+            <div class="field">
+                <label for="input__phone" class="label__phone">Phone</label>
+                <input type="text" id="input__phone" class="input__phone" placeholder="">
+            </div>
+            <div class="field">
+                <label for="input__email" class="input__email">Email</label>
+                <input type="email" id="input__email" class="input__email" placeholder="">
+            </div>
+        </div>
+        <div class="field">
+            <label for="input__text" class="label__text">Message</label>
+            <textarea class="input__text" id="input__text" cols="30" rows="10"></textarea>
+        </div>
+        <div class="checkbox">
+            <input id="check-receipt" type="checkbox" class="checkbox__input visually-hidden" value="Receipt">
+            <label for="check-receipt" class="checkbox__label">By clicking on the button, you consent to the processing of your personal data</label>
+        </div>
+        <button class="btn" type="submit">submit</button>
+        <div class="popup__close__btn"></div>
+    </form>
+    <div class="popup__overlay"></div>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -107,6 +107,7 @@ a {
 .footer__title {
     font-family: 'Open Sans', 'Arial', sans-serif;
     font-size: 16px;
+    font-weight: 400;
     line-height: 22px;
 
     color: #AAAAAA;
@@ -237,7 +238,117 @@ h1 {
 .bredcrumbs__item:last-child::after{
     display: none;
 }
+                                /** FORM **/
+.popup {
+    display: none;
+    width: 680px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left: -340px;
+    margin-top: 200px;
+    padding: 40px;
+    background-color: #E5EAF8;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.popup__close__btn {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    right: -25px;
+    top: 0;
+    background-image: url(../image/icon/X.svg);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.field__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
 
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
 
+    color: #1E0606;
+    
+}
 
+.field input {
+    height: 50px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
 
+.field textarea {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.field__wrapper .field {
+    width: 290px;
+}
+
+.field label {
+    margin-bottom: 3px;
+}
+
+.checkbox {
+    margin-bottom: 17px;
+}
+.checkbox__label {
+    position: relative;
+    margin-left: 34px;
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1E0606;
+}
+.checkbox__label::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 19px;
+    width: 19px;
+    border: 2px solid #C29974;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.checkbox__label::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: -30px;
+    height: 15px;
+    width: 15px;
+    background-image: url(../image/icon/V.svg);
+    box-sizing: border-box;
+    opacity: 0;
+}
+.checkbox__input:checked + .checkbox__label::after {
+    opacity: 1;
+}
+
+.popup__overlay {
+    display: none;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: rgba(125, 151, 218, 0.8);
+    z-index: 0;
+}
+
+.open {
+    display: block;
+}
