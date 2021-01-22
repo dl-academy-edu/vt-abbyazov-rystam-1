@@ -2,12 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 -10px;
-    margin-bottom: -20px;
+    margin-bottom: -26px;
 }
 .blog__item{
     width: 380px;
     margin: 0 10px;
-    margin-bottom: 20px;
+    margin-bottom: 26px;
  }
 
 .article__image {
@@ -36,51 +36,6 @@
     line-height: 25px;
     color: #1E0606;
 }
-
-.shop__slider {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 35px;
-    margin-bottom: 60px;
-}
-
-.num {
-    margin: 0 33px;
-    padding: 0;
-    font-family: 'Montserrat', 'Arial', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    text-transform: uppercase;
-    color: #1E0606;
-
-    background-color: #fff;
-    border: 0;
-    cursor: pointer;
-}
-.num.active {
-    color: #C29974;
-}
-
-.shop__control{
-    border: 0;
-    background-color: #fff;
-}
-.control {
-    height: 20px;
-    width: 20px;
-    border-top: 3px solid #000;
-    border-left: 3px solid #000;
-    opacity: .2;
-    cursor: pointer;
-}
-.control.left {
-    transform: rotate(-45deg);
-}
-.control.right {
-    transform: rotate(135deg);
-}
-
 
 
 
