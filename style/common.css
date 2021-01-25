@@ -172,7 +172,7 @@ a {
     font-size: 16px;
     line-height: 22px;
 }
-.social__icon {
+.social__list {
     display: flex;
     margin-top: 20px;
 }
@@ -185,6 +185,17 @@ a {
     padding-top: 25px;
     border-top: 1px solid #666;
 }
+.social__icon {
+    opacity: 1;
+    transition: .2s opacity ease;
+}
+.social__icon:hover {
+    opacity: .5;
+}
+.icon__link:focus-within{
+    opacity: .2;
+}
+
                 /** Rating star **/
 .raiting {
     display: flex;
@@ -496,4 +507,16 @@ h1 {
 .control.right {
     transform: rotate(135deg);
 }
+                /** disabled **/ 
 
+
+.disabled__btn {
+    background-color:#C1C1C1;
+    color: #E1E1E1;
+    pointer-events: none;
+}
+  
+.disabled__input {
+    opacity: .7;
+    pointer-events: none;
+}

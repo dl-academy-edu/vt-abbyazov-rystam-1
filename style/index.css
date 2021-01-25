@@ -33,7 +33,10 @@
     cursor: pointer;
 }
 .slider__control.active{
-    background-color: rgba(30, 6, 6, 0.6);
+    background-color: #715F5C;
+}
+.slider__control:hover {
+    background-color: #715F5C;
 }
 .slide__text {
     margin-top: 91px;
@@ -115,19 +118,22 @@
     margin-bottom: 20px;
     position: relative;
     background-color: #DBE4DB;
- }
- .category__item:focus-within{
-     outline: 2px solid #000;
- }
- .category__item:nth-child(2){
+}
+.category__item:hover .item__text{
+    text-decoration: underline;
+}
+.category__item:focus-within{
+    outline: 2px solid #000;
+}
+.category__item:nth-child(2){
     background-color: #EADDD3;
- }
- .category__item:nth-child(3){
+}
+.category__item:nth-child(3){
     background-color: #F8F2DA;
- }
- .category__item:nth-child(4){
+}
+.category__item:nth-child(4){
     background-color: #D5D4E1;
- }
+}
 .item__link{
     display: flex;
 }
@@ -180,6 +186,7 @@
     background-color: #E2F1F8;
     border: 0;
     margin-right: 6px;
+    cursor: pointer;
 }
 
 .left__side {
@@ -192,6 +199,7 @@
     background-color: transparent;
     border-bottom: none;
     border-left: none;
+    cursor: pointer;
 }
 .right__side {
     width: 21px;
@@ -203,9 +211,8 @@
     background-color: transparent;
     border-bottom: none;
     border-left: none;
+    cursor: pointer;
 }
-
-
 
                             /*   Third   */
 

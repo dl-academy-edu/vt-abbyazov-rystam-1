@@ -8,7 +8,10 @@
     width: 380px;
     margin: 0 10px;
     margin-bottom: 26px;
- }
+}
+.blog__article:hover .article__title{
+    text-decoration:underline;
+}
 
 .article__image {
     margin-bottom: 20px;

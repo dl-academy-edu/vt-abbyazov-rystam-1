@@ -327,11 +327,12 @@
     pointer-events: none;
 }
 .shop__item:hover::before{
-    opacity: .8;
+    opacity: .67;
 }
 .shop__item:hover::after{
-    opacity: .8;
+    opacity: .9;
 }
+
 .item__image {
     margin-bottom: 30px;
 }

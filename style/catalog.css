@@ -17,6 +17,9 @@
     position: relative;
     background-color: #DBE4DB;
 }
+.catalog__item:hover .item__text{
+    text-decoration: underline;
+}
 .catalog__item:nth-child(2){
     background-color: #EADDD3;
 }
