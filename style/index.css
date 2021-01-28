@@ -25,6 +25,10 @@
     font-size: 60px; 
     color: rgba(30, 6, 6, 0.05);
 }
+.list__item {
+    padding: 5px 0;
+    margin-bottom: -13px;
+}
 .slider__control {
     width: 30px;
     height: 3px;
@@ -35,12 +39,13 @@
 .slider__control.active{
     background-color: #715F5C;
 }
-.slider__control:hover {
+.list__item:hover .slider__control{
     background-color: #715F5C;
 }
 .slide__text {
     margin-top: 91px;
     margin-left: 41px;
+    position: relative;
 }
 .slide__title {
     width: 337px;
@@ -64,9 +69,6 @@
     display: flex;
     flex-direction: column;
 }
-.list__item {
-    margin-bottom: -3px;
-}
 .hero__subtext {
     height: 40px;
     display: flex;
@@ -87,7 +89,7 @@
 .slide__img {
     position: absolute;
     top: -89px;
-    right: 104px;
+    right: 102px;
 }
 
                         /* CATEGORY */
