@@ -28,27 +28,41 @@
     margin-top: 17px;
 }
 .slide__num {
+    margin-bottom: 12px;
     font-family: 'Montserrat', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 60px; 
     color: rgba(30, 6, 6, 0.05);
 }
+.slide__list {
+    font-size: 0;
+}
 .list__item {
     width: 30px;
-    padding: 5px 0;
-    margin-bottom: -13px;
+    margin-bottom: 4px;
 }
 .slider__control {
     width: 30px;
-    height: 3px;
-    border: 0;
-    background-color: #D6CAC2;
+    padding: 5px 0;
+    position: relative;
+    border: none;
+    background-color: transparent;
     cursor: pointer;
 }
-.slider__control.active{
+.slider__control::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #D6CAC2;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+.slider__control.active::after{
     background-color: #715F5C;
 }
-.list__item:hover .slider__control{
+.slider__control:hover::after{
     background-color: #715F5C;
 }
 .slide__text {
