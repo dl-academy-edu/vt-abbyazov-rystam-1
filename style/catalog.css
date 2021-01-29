@@ -6,14 +6,12 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin: 0 -10px;
-    margin-bottom: -20px;
+    margin: 0 -10px -20px -10px;
 }
 .catalog__item{
     height: 270px;
     width: 280px;
-    margin: 0 10px;
-    margin-bottom: 20px;
+    margin: 0 10px 20px 10px;
     position: relative;
     background-color: #DBE4DB;
 }

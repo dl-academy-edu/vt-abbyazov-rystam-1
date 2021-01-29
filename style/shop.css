@@ -282,15 +282,13 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 0 -10px;
-    margin-bottom: -20px;
+    margin: 0 -10px -20px -10px;
 }
 .shop__item {
     display: flex;
     text-align: center;
     width: 380px;
-    margin: 0 10px;
-    margin-bottom: 20px;
+    margin: 0 10px 20px 10px;
     position: relative;
 }
 .shop__item::before {
@@ -303,6 +301,7 @@
     margin-left: -103px;
     top: 89px;
     background-color: #E5EAF8;
+
     opacity: 0;
     transition: .2s opacity ease;
     pointer-events: none;
@@ -316,12 +315,14 @@
     left: 50%;
     margin-left: -92px;
     top: 178px;
+    
     font-family: 'Montserrat','Arial', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 29px;
     text-align: center;
     text-transform: uppercase;
+
     opacity: 0;
     transition: .2s opacity ease;
     pointer-events: none;

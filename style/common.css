@@ -45,6 +45,7 @@ a {
     background-color: #000;
     border: 0;
     transition: .2s background-color ease;
+    cursor: pointer;
 }
 .btn:hover {
     background-color: #C29974;
@@ -162,8 +163,7 @@ a {
 
 .email {
     width: 300px;
-    padding: 9px 0;
-    padding-left: 15px;
+    padding: 9px 0 9px 15px;
     background-color: #666666;
     border: 0;
     color:#EBEBEB;
@@ -171,6 +171,9 @@ a {
     font-family: 'Open Sans', 'Arial', sans-serif;
     font-size: 16px;
     line-height: 22px;
+}
+.email::placeholder {
+    color:#EBEBEB;
 }
 .social__list {
     display: flex;
@@ -264,8 +267,15 @@ a {
     font-family: 'Open Sans', 'Arial', sans-serif;
     font-size: 16px;
     line-height: 22px;
-
     color: #AAAAAA;
+    opacity: 1;
+    transition: .2s opacity ease;
+}
+.madein__text:hover {
+    opacity: .67;
+}
+.madein__text:focus {
+    opacity: .3;
 }
 
                                 /** H1 Titles **/
@@ -290,9 +300,17 @@ h1 {
     line-height: 25px;
     color: #1E0606;
     margin-right: 20px;
+    opacity: 1;
+    transition: .2s opacity ease;
+}
+.bredcrumbs__item:hover {
+    opacity: .67;
 }
 .bredcrumbs__item:last-child{
     opacity: .5;
+}
+.bredcrumbs__item:last-child:hover {
+    opacity: .3;
 }
 .bredcrumbs__item::after{
     display: block;
@@ -356,13 +374,10 @@ h1 {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-
     font-family: 'Open Sans', 'Arial', sans-serif;
     font-size: 14px;
     line-height: 19px;
-
     color: #1E0606;
-    
 }
 
 .field input {
@@ -370,6 +385,7 @@ h1 {
     padding: 0 20px;
     box-sizing: border-box;
     border: 2px solid #D9D9D9;
+    cursor: pointer;
 }
 .field:hover input {
     border: 2px solid #B3B3B3;
@@ -391,15 +407,12 @@ h1 {
 .input__text:focus {
     border: 2px solid #CCCCCC;
 }
-
 .field__wrapper .field {
     width: 290px;
 }
-
 .field label {
     margin-bottom: 3px;
 }
-
 .checkbox {
     margin-bottom: 17px;
 }
@@ -413,6 +426,7 @@ h1 {
     font-size: 14px;
     line-height: 22px;
     color: #1E0606;
+    cursor: pointer;
 }
 .checkbox__label::before{
     content: "";

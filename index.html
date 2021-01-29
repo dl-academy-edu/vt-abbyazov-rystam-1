@@ -162,23 +162,23 @@
             <div class="container">
                 <h2 class="visually-hidden">Sponsors</h2>
                 <ul class="sponsors__wrapper">
-                    <li>
-                        <a class="sponsor__img" href="#">
+                    <li class="sponsors__item">
+                        <a class="sponsor__link" href="#">
                             <img src="image/mailru.jpg" width="193" height="60" alt="sponsor image">
                         </a>
                     </li>
-                    <li>
-                        <a class="sponsor__img" href="#">
+                    <li class="sponsors__item">
+                        <a class="sponsor__link" href="#">
                             <img src="image/apple.jpg" width="179" height="61" alt="sponsor image">
                         </a>
                     </li>
-                    <li>
-                        <a class="sponsor__img" href="#">
+                    <li class="sponsors__item">
+                        <a class="sponsor__link" href="#">
                             <img src="image/eltex.jpg" width="216" height="46" alt="sponsor image">
                         </a>
                     </li>
-                    <li>
-                        <a class="sponsor__img" href="#">
+                    <li class="sponsors__item">
+                        <a class="sponsor__link" href="#">
                             <img src="image/owox.jpg" width="211" height="40" alt="sponsor image">
                         </a>
                     </li>
@@ -212,7 +212,7 @@
                                 on dlk my entire life and there are other
                                 days that i am completely shocked that
                                 four years have flown by. It's simply magical.</p>
-                            <iframe class="map map__img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1676.6754223553646!2d49.33185854121453!3d53.53675159085867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e1!4m0!4m0!5e0!3m2!1sru!2sru!4v1611592116449!5m2!1sru!2sru" width="483" height="196" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>  
+                            <iframe class="map map__img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1676.6754223553646!2d49.33185854121453!3d53.53675159085867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e1!4m0!4m0!5e0!3m2!1sru!2sru!4v1611592116449!5m2!1sru!2sru" width="483" height="196" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>  
                         </div>
                     </div>
                 </div>
@@ -274,7 +274,7 @@
                     <h3 class="footer__title">Connect</h3>
                     <div class="footer__list">
                         <div class="form__wrapper">
-                            <form action="" class="footer__input">
+                            <form class="footer__input">
                                 <input class="email" type="text" placeholder="Email">
                             </form>
                             <div class="footer-btn-wrapper">
@@ -342,12 +342,12 @@
                     <p class="copyright">Copyright © 2018 Dlk • Design Life Kids</p>
                 </div>
                 <div class="madein footer__section">
-                    <p class="madein__text">Web Design — Direct Line Development</p>
+                    <a href="https://directline.digital/" class="madein__text">Web Design — Direct Line Development</a>
                 </div>
             </div>
         </div>
     </footer>   
-    <form class="popup" action="https://echo.htmlacademy.ru" mthod="post">
+    <form class="popup" action="https://echo.htmlacademy.ru" method="post">
         <div class="field">
             <label for="input__name" class="label__name">Name</label>
             <input type="text" id="input__name" class="input__name" placeholder="Rustam Abbyazov">
@@ -371,7 +371,7 @@
             <label for="check-receipt" class="checkbox__label">By clicking on the button, you consent to the processing of your personal data</label>
         </div>
         <button class="btn disabled__btn" type="submit" >submit</button>
-        <button class="popup__close__btn"></button>
+        <button class="popup__close__btn" type="button"></button>
     </form>
     <div class="popup__overlay"></div>
     <script src="script.js"></script>
