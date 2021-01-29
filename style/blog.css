@@ -10,7 +10,11 @@
     width: 380px;
     margin: 0 10px 26px 10px;
 }
-.blog__article:hover .article__title{
+.article__link {
+    height: 100%;
+    width: 100%;
+}
+.article__link:hover .article__title{
     text-decoration:underline;
 }
 

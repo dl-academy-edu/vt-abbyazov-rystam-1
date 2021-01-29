@@ -1,5 +1,5 @@
 
-                                /** HEADER **/
+                            /** HEADER **/
 .header {
     margin-bottom: 126px;
 }
@@ -144,7 +144,11 @@
     position: relative;
     background-color: #DBE4DB;
 }
-.category__item:hover .item__text{
+.item__link {
+    height: 100%;
+    width: 100%;
+}
+.item__link:hover .item__text{
     text-decoration: underline;
 }
 .category__item:focus-within{

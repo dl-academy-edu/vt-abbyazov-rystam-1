@@ -460,26 +460,18 @@ h1 {
     border: 2px solid #D9D9D9;
     cursor: pointer;
 }
-.field:hover input {
+.input__popup:hover {
     border: 2px solid #B3B3B3;
 }
-.field:focus input {
+.input__popup:focus{
     border: 2px solid #CCCCCC;
 }
-
-
 .field textarea {
     height: 153px;
     padding: 12px 20px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     border: 2px solid #D9D9D9;
-}
-.input__text:hover {
-    border: 2px solid #B3B3B3;
-}
-.input__text:focus {
-    border: 2px solid #CCCCCC;
 }
 .field__wrapper .field {
     width: 290px;

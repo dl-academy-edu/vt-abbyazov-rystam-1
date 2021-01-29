@@ -1,4 +1,4 @@
-                            /** Filters **/
+                        /** Filters **/
 .filters{
     background-color: #E5EAF8;
     padding: 42px 0;
@@ -320,7 +320,7 @@
     margin: 0 10px 20px 10px;
     position: relative;
 }
-.shop__item::before {
+.item__link::before {
     content: "";
     display: block;
     height: 207px;
@@ -337,7 +337,7 @@
     transition: .2s opacity ease;
     pointer-events: none;
 }
-.shop__item::after {
+.item__link::after {
     content: "learn more";
     display: block;
     width: 184px;
@@ -360,10 +360,14 @@
     transition: .2s opacity ease;
     pointer-events: none;
 }
-.shop__item:hover::before{
+.item__link {
+    height: 100%;
+    width: 100%;
+}
+.item__link:hover::before{
     opacity: .67;
 }
-.shop__item:hover::after{
+.item__link:hover::after{
     opacity: .9;
 }
 

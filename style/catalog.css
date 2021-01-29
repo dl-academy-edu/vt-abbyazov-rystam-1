@@ -13,15 +13,19 @@
         flex-wrap: wrap;
     margin: 0 -10px -20px -10px;
 }
+.item__link {
+    height: 100%;
+    width: 100%;
+}
+.item__link:hover .item__text{
+    text-decoration: underline;
+}
 .catalog__item{
     height: 270px;
     width: 280px;
     margin: 0 10px 20px 10px;
     position: relative;
     background-color: #DBE4DB;
-}
-.catalog__item:hover .item__text{
-    text-decoration: underline;
 }
 .catalog__item:nth-child(2){
     background-color: #EADDD3;
