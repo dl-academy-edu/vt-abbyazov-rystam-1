@@ -2,6 +2,8 @@
     margin-bottom: 60px;
 }
 .contact__wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
                     /** FORM >>>> **/
@@ -10,7 +12,8 @@
     background-color: #E5EAF8;
     padding: 40px;
     margin-right: 120px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
                      /** <<<< FORM **/
 .content__info {
@@ -35,7 +38,6 @@
     text-transform: uppercase;
     color: #C29974;
 }
-
 
 
 
