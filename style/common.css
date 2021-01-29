@@ -125,6 +125,7 @@ a {
                             /* FOOTER */
 
 .footer {
+    position: relative;
     background-color: #434343;
     padding:100px 0;
 }                     

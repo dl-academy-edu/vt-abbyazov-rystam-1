@@ -57,7 +57,8 @@
     position: relative;
 }
 .slide__title {
-    width: 337px;
+    max-width: 337px;
+    overflow-wrap: inherit;
     font-family: 'Montserrat', 'Arial', sans-serif;
     font-weight: 700;
     font-size: 40px;
@@ -67,6 +68,7 @@
     
 }
 .slide__desc {
+    max-width: 155px;
     font-family:'Crimson Text', 'Arial', sans-serif;
     font-style: italic;
     font-size: 20px;
@@ -84,7 +86,6 @@
             flex-direction: column;
 }
 .hero__subtext {
-    height: 40px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -95,7 +96,7 @@
         -ms-flex-pack: center;
             justify-content: center;
     background-color: #C29974;
-
+    padding: 12px 0;
     font-family: 'Open Sans', 'Arial', sans-serif;
     font-weight: 700;
     font-size: 12px;
@@ -147,6 +148,9 @@
 .item__link {
     height: 100%;
     width: 100%;
+}
+.item__text {
+    max-width: 200px;
 }
 .item__link:hover .item__text{
     text-decoration: underline;

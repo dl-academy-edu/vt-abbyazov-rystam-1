@@ -23,7 +23,7 @@
             flex-direction: column;
 }
 .range:focus-within{
-    outline: solid 1px #4a90e2;
+    outline: solid 2px #000;
 }
 .range__body {
     width: 210px;
@@ -124,7 +124,7 @@
     margin-top: 12px;
 }
 .color__checkbox:focus-within{
-    outline: solid 1px #4a90e2;
+    outline: solid 2px #000;
 }
 .color__label {
     position: relative;
@@ -178,9 +178,6 @@
 .delivery__checkbox {
     width: 131px;
     margin-top: 9px;
-}
-.delivery__checkbox:focus-within{
-    outline: solid 1px #4a90e2;
 }
 .delivery__label {
     position: relative;
@@ -242,7 +239,7 @@
     margin-top: 6px;
 }
 .list__item:focus-within {
-    outline: solid 1px #4a90e2;
+    outline: solid 2px #000;
 }
 .amount__label {
     display: block;
@@ -363,13 +360,21 @@
 .item__link {
     height: 100%;
     width: 100%;
+    z-index: 3;
 }
 .item__link:hover::before{
-    opacity: .67;
+    opacity: .9;
 }
 .item__link:hover::after{
     opacity: .9;
 }
+.item__link:focus::after{
+    opacity: .9;
+}
+.item__link:focus::before {
+    opacity: .67;
+}
+
 
 .item__image {
     margin-bottom: 30px;
